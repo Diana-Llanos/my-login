@@ -9,7 +9,7 @@ export const Login = () => {
             <form className="register">
                 <input type="text" placeholder="name"/>
                 <input type="password" placeholder="password"/>
-                <button>login</button>
+                <button onClick={()=> alert('Datos guardados con exito')}>login</button>
 
 
             </form>
